@@ -1,0 +1,58 @@
+
+.section {
+  background-size: cover;
+  background-repeat: no-repeat; 
+  min-height: 100vh;
+  align-items: center;
+
+}
+
+.card {
+display: flex;
+justify-content: center;
+margin: 0 auto; /* Set top and bottom margin to 5rem, and left and right margins to auto */
+gap: 2rem;
+}
+
+.single-card {
+width: 600px;
+height: auto;
+border: 1px solid green;
+border-radius: 4px;
+padding: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+
+.card__body {
+text-align: center;
+}
+
+.card__image {
+width: 100%;
+height: auto;
+border-radius: 4px;
+height: 624px;
+object-fit: cover;
+border-top-left-radius: 0.25rem;
+border-top-right-radius: 0.25rem;
+display: block;
+}
+
+
+.card__btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 20px; /* Increase padding for a bigger button */
+  background-color: wheat; /* Set background color to white */
+  color: purple; /* Change text color to blue */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.card__btn:hover {
+  background-color: rgb(162, 235, 162); /* Set hover background color to green */
+  color: #fff; /* Change text color to white on hover */
+}
